@@ -27,7 +27,7 @@ p{
 .navimg{
 
     width: 30%;
-    min-width:300px;
+    min-width:200px;
 }
 .aboutus{
     width: 60%;
@@ -39,7 +39,7 @@ p{
     margin: 20px;
     padding: 20px;
     margin: auto;
-    min-width: 400px;
+    min-width: 300px;
 }
 
 .topnav{
@@ -198,6 +198,7 @@ button:hover{
 
   .ministrygallery{
       margin-top: 20px;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -205,8 +206,10 @@ button:hover{
   }
 
   .ministrygallery > img {
-    margin: 5px;
 
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
   }
 
   
@@ -257,5 +260,12 @@ button:hover{
         width:100%;
         margin-top: 20px;
       }
+
+      .ministrygallery > img {
+
+        margin: auto;
+        
+      }
+      
 
 }
